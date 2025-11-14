@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import { Outlet } from 'react-router-dom'
-import { CreateOrganization, SignIn, useAuth, useUser } from '@clerk/clerk-react'
+import { CreateOrganization, SignIn, useAuth, useUser, useOrganization, useOrganizationList } from '@clerk/clerk-react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchWorkspaces } from '../features/workspaceSlice'
 import { loadTheme } from '../features/themeSlice'
@@ -13,6 +13,8 @@ const Layout = () => {
     const { user, isLoaded } = useUser()
     const { workspaces, loading } = useSelector((state) => state.workspace)
     const { getToken } = useAuth()
+    const { organization } = useOrganization()
+    const { organizationList, isLoaded: orgListLoaded } = useOrganizationList()
     const dispatch = useDispatch()
 
     // Initial load of theme
@@ -22,10 +24,21 @@ const Layout = () => {
 
     // Initial load of workspaces
     useEffect(() => {
-        if (isLoaded && user && workspaces.length === 0) {
+        if (isLoaded && user && workspaces.length === 0 && orgListLoaded) {
             dispatch(fetchWorkspaces({ getToken }))
         }
-    }, [user, isLoaded])
+    }, [user, isLoaded, orgListLoaded])
+
+    // Refresh workspaces when organization list changes (after creating new org)
+    useEffect(() => {
+        if (isLoaded && user && orgListLoaded && organizationList?.length > 0 && workspaces.length === 0) {
+            // Wait a bit for Inngest webhook to sync
+            const timer = setTimeout(() => {
+                dispatch(fetchWorkspaces({ getToken }))
+            }, 2000)
+            return () => clearTimeout(timer)
+        }
+    }, [organizationList, isLoaded, user, orgListLoaded])
 
     if (!user) {
         return (
@@ -63,3 +76,4 @@ const Layout = () => {
 }
 
 export default Layout
+

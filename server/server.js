@@ -13,7 +13,11 @@ import { serve } from "inngest/express";
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: true, // Allow all origins in dev, or specify your frontend URL
+    credentials: true,
+    allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 app.use(clerkMiddleware());
 
 app.get('/', (req, res) => res.send('Server is live!'));
