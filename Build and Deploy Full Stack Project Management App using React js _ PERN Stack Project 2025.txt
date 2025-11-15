@@ -1,0 +1,205 @@
+(Transcribed by TurboScribe.ai. Go Unlimited to remove this message.)
+
+Hello and welcome back to another exciting tutorial of GreatStack. In today's video, we are going to build and deploy a full stack project management application using PernStack. In this full stack project, users can sign up and create their organization or workspace.
+
+In this workspace, you can invite members, create tasks, add tasks, and assign tasks to any member. So let's take a look at the project demo. So once you open this application, it will ask you to sign in or sign up.
+
+After sign up, you need to create an organization. So once you sign up, you will see this pop-up to create an organization, and after that you will see this dashboard. In this dashboard, you will find the project details.
+
+So this is the project overview. So here you will find the list of projects. And in this card, you will find the total number of projects, completed projects, my task, and overdue projects or tasks.
+
+Now in the right side, we have the task summary. We have my task, then overdue, in progress. Here you will find the recent activities.
+
+And after that, come to this left sidebar. Here you will find this dropdown from where you can change the organization. You can switch between different organization or workspace.
+
+If you have multiple workspace, right? And you can click on this button to create a new workspace or organization. And after that, let me just click on this project. So here you will find all the projects in this organization.
+
+So if you open any project. So here you will find the list of tasks, correct? And you can create a new task using this button, create task, right? You need to enter the details and create a new task. Let me switch the theme.
+
+I'll open this webpage in dark mode. So you can see it looks beautiful in this dark mode also. And this is the light mode, right? So in this one, we have multiple options, like you can see the list of tasks.
+
+You can see the calendar. So in this calendar, you will see the due date for the task. Here you will find the analytics where you can see the task by status, task by type and task by priority.
+
+In this settings, you can update the project details and here you can click here to invite a new member in this project, right? If I come back here in the left sidebar, we have the team. So in this team, we have the invite button. If I click here, you can invite a new member in this organization or workspace.
+
+You need to enter the email ID and click send invitation, right? Then we have the settings that will open the profile settings. Let me switch to light mode. After that, here in the left side, you will find the list of tasks.
+
+We can expand it like this. And here you will find the list of tasks. And after that, here you will find the list of projects also, right? If I expand it, here you have the tasks, analytics, calendar and settings for this particular project.
+
+Now let me create a new organization here. So I'll click on this drop-down and click on create workspace. And here we will choose the logo.
+
+Then we'll add the organization name here. So let me write any organization name. I'll write the dummy name here.
+
+A Spotify INC and create organization. So here we have created a new workspace and you can invite the members in this workspace. You can enter the email ID and click on send invitation, or you can simply click a skip.
+
+We can invite the members later. So after that, you can find the drop-down here and here you have another organization. Let me just click here and you can switch the organization.
+
+So now you can see we are in the new organization and here we don't have any data, right? We don't have any project or task. If I go to project, we don't have any project. If I go to team, we have only one team member, right? That is the admin.
+
+Let me just click here, invite member, and here you can enter the email ID. Here you can choose the role. I'll choose member and click on send invitation.
+
+Now, let me open my email ID. So here I have received this invitation to join this Spotify INC workspace and click on this invitation. So it will ask you to sign up on this application.
+
+And if you already have an account with this email ID, you will simply log in and you will find this organization in your profile. So you can see in this profile also, I am the member of this Spotify INC, right? Now, let me just come back to the previous account and here we'll create a new project. So I'll just click on this button, new project, and here we'll add the details.
+
+So let's add the project name. So I'll write music streaming app and here we'll add the project description. And after that, you need to choose the status.
+
+So let's add active. We will choose the priority and a start date and end date. And here we'll choose the team lead and you can also choose the other members, right? And click on create project.
+
+So we have created a project here. And after that, you will find the projects here in this dashboard also, and in this left sidebar also, let's click here and you will go to task. So here you can click on this new task and create a new task here.
+
+So I'll write the task name like UI UX design. Then you need to add the task description and you can choose the type. It is task and priority, and you can assign this to any member, right? But you can add the team member also, if I go to settings and here you can see we have only one member, right? So in this project, let me add a new member.
+
+So if I click on this dropdown, you can see we have another member also, right? Let me choose this one and click on add member. So we have added another member in this project, right? You can see now we have two members in this project. Now let me create the task and here we'll add the task name and then we'll add the task description here and let's choose the type task and priority and assign this to this user.
+
+And then we'll add the status to do, or you can choose the in progress done anything. And here you need to add the due date and create task. So you can see the task list here.
+
+One task has been created. Let me add another task also. I'll click on this new task and here we'll add the description.
+
+Then let me choose the type improvement or you can choose feature. We can set the priority assigned to any user and here we'll add the in progress or to do. Then we'll choose the due date and create task.
+
+So we have created two tasks. Whenever a new task is assigned to any user, then they will receive an email like this. You can see a new task has been assigned to this user and here we have this email, right? And the user will receive another email also.
+
+That is the reminder email on the due date. If the task is not completed on the due date, we can also update the status from this drop down. We can click here and choose done so we can update the status and we can also delete the task by using this checkbox and click on delete.
+
+So this task will be deleted. Now let me open any task and in this one we can add the comment also. So let's add the comment in this discussion.
+
+So I'll write it's completed and click on post. So you can see the comment has been added in this discussion. So this was the overview of the project management application.
+
+Let me switch the organization from this drop down and let me change the theme also. In this project, we have created user authentication and organization management using Calarc. Calarc makes it easy to handle user sign-in, sign-up, and account management.
+
+With Calarc's organization feature, we can create an organization, invite, and manage the team members. We have added ingest in this project to manage the background jobs and scheduling. Using ingest functions, we will send the new task assignment and reminder emails.
+
+It will also help us to handle the Calarc webhooks more efficiently. To store user, organization, and project data, we are going to use Neon. Neon is a serverless PostgreSQL database that helps developers build reliable and scalable applications quickly.
+
+After building this full-stack project management application, we will deploy it online using Vercel. So if you are also excited to build your own project management app, just write down I am going to build this project management app in the comment box. I will recommend you to build this project and add the project live link in your resume or you can also use it as your college project.
+
+Now let's get started. To build our project management application, we will use an open source template created by GreatStack. Simply visit GreatStack github profile at github.com slash great stack dev.
+
+On this page, you will find a project called project management and I will also provide this repo link in the video description. So let's open this repository. It is a free open source project management website template built using ReactJS and Tailwind CSS.
+
+Don't forget to click the star button on GitHub to support this project. If you show more love on this project, we will bring more open source projects for you. We also have other open source projects on our GitHub page.
+
+You can check out other projects and hit the star button. So again, come back to this project management repository. To get started, you can fork the repository and clone it on your local machine or simply click the code button and then choose download zip and download the zip file.
+
+It has been downloaded. Now let me place this downloaded zip file on the desktop screen. So here we have the downloaded zip file.
+
+Let me extract it. I'll right-click and select extract here. So here we have this folder project management main, correct? And if I open this folder, here we have the code file and folder, correct? Now let me just come back and I'll place it in a project folder.
+
+So here I'll create the project folder and write the project name that is project management. So we have added the folder called project management. And in this one, let's add this downloaded folder.
+
+Just add it here like this. So now let me rename the folder. So here the folder name is project management main.
+
+So I'll write client because this is the front end template only. So I have added the name client. Now let's open this project management folder with VS code.
+
+So now this project management is open in VS code and here we have the client folder, right? After that, just right-click on this client and select open in integrated terminal. So in this terminal, you can see we are in this client directory, right? So now we can start our client project. If I expand this folder, here we have the public folder, then src and other files.
+
+Here we have the index.html file, then we have the package.json and then readconfig. So let's open this package.json file. In this one, you can see we have the list of dependencies like ReduxJS, TelwinCSS, Date Function, Lucid React.
+
+We have added Lucid React to use the icons and we have used ReduxJS toolkit to manage the state. Then we have the react, react-dom and react-hot-toast. Using this react-hot-toast, we can display the toast notification.
+
+Then we have the react-redux for managing the state and then we have the react-router-dom. So using this, we can navigate the pages and after that we have the recharts and TelwinCSS. Now let's open this index.html file.
+
+In this one, you can update the project title, you can add the favicon icon here. Now let's come here in this public folder. So here we have favicon.ico, that's it.
+
+And in this src, we have all the pages, right? And we have the pages and components. We have the assets also. So if I expand this assets, here we have all images and icons that will be used in this project.
+
+And then we have the assets.js file. If I open assets.js, in this one, we have imported all the images and exported it using this assets object so that we can easily access it in our project. Then we have added some dummy data.
+
+As you can see, dummy users. Then we have dummy workspaces, and in this workspaces, you will find the id, then organization id, then we have the organization name, slug. This is the corp workspace.
+
+After that, we have the image URL. So in this dummy workspaces, we have added the data for different organization. And in this organization, we have members and you can see the member id, user id, workspace id, role, user.
+
+And after that, in this organization, we have this projects, right? And in this project, we can add multiple tasks. So we have added the dummy projects, members, tasks, and also we have the members. So we can add multiple members in a project.
+
+Then we have the project owner. And after that, here you can see the another organization, right? This is the id, name, slug, description. Then we have the members.
+
+So, this is the dummy data that we have already added in the frontend, right? Now to start this frontend, just open this terminal and here we have to install the dependencies. So simply write npm install. It will install the packages and just wait for it.
+
+It is installing the package. Now all the packages has been installed and after that you will find a folder in this client that is node underscore modules. So it will create this folder and all the packages will be added in this node underscore modules folder.
+
+After that, we can run our project. So just add npm run dev. Press enter.
+
+So our project is running at this URL localhost 5173. Let's open it in the web browser, copy this link and open in web browser. So you can see this is the frontend template of project management, right? And in this one, we have the dummy data also, and we can also change the theme.
+
+Right now it is in the dark mode, right? So I'll just click here so you can switch to light mode or dark mode like this. After that, let me show you all the features of this template. So first we have this dashboard and before this dashboard area, we have the navigation bar also where you can switch the workspace or organization.
+
+Correct. And after that, here we have the user icon in the right side, which is not functional yet because we have not added the backend functionality. After that, here we have the search icon where you can search for the project or task.
+
+Now after this navbar, here we have the dashboard area where you can see the overview like total number of projects, completed projects, my task and overdue. After that, here you will find the active projects. We have the project overview, right? And you can see the status active and we have the button called view all that will take you to the projects page where you can see all the projects.
+
+Right now we are on the dashboard page, so it will display two projects here. Then we have my task and also it is displaying the task list and you can click here to open the particular task and it is also displaying the count here. After that, we have the recent activity, then overdue in progress like this.
+
+Now let's come here in the sidebar and switch to different page. So I'll click on this projects. So here you can see we have two projects and we have this search box.
+
+Then we have the filters. Let me show you in light mode. Here we have the filters.
+
+I'll update the text color in the dark mode also. And after that, here you can see this button that is new project. So you can also create a new project using this button that will open a form like this where you can add the project details and create a new project in your workspace.
+
+After that, let's come here in this team. So in this one, you will get the list of team members, right? And their role. After that, you can also search the team members using this input field.
+
+And then we have the other details like total members, active projects and total tasks. But with that, we have more features like add members. So we will add the functionality in this button, add members using that we can add new members in this project.
+
+And here you can see the button send invitation, right? So this is the team page. And after that, we have the settings in the left side. Here we'll add the functionality to make the changes in the organization settings.
+
+After that, here we have the task list. You can see we can expand it and we'll see the list of tasks. And if I click here, it will open this discussion page where we can send the messages also.
+
+Right. And in the right side, we have the task details and project details. After that, in the left side, you will find this projects, right? If I click on any project, it will display the tasks, analytics, calendar and settings.
+
+Just click on this task. So it will display all the tasks for the particular project. And here we have other stats like total task completed in progress and team members.
+
+We can switch the tab like this. If I click on calendar here, we have the calendar, then we have analytics, then settings. So in the settings page, we can make the changes in the project details.
+
+And here we have the option to manage the members, right? So this is the front end only. We don't have the functionality here. This is the static template.
+
+Next, we have to add the features will make it functional. So first we'll start with the user authentication for user authentication feature. We are going to use correct.
+
+It is most comprehensive user management platform. It also provides organization features that allow users to create organization, add user and invite users to an organization. Coloq also provides ready-to-use components for user authentication and organization management that we can easily integrate in our ReactJS project.
+
+So just click the link provided in the description and sign up on the Coloq website. So I'll click on this button and I'll sign up with my existing Google account. I'll choose Google.
+
+After sign up, you will come to Coloq dashboard where you need to create an application. So I'll just click on this button, create application. And here we have to add the application name.
+
+So I'll write project management and after that you can enable the sign up methods. So I'll use Google sign up and email. You can also use other sign up methods like phone number, username, Facebook, Apple, Microsoft.
+
+So I'll just use Google sign up and email and click on create application button. After that, here we have the documentation to set up the Coloq in our project. So I'll just click on this react.
+
+And after that, you can see the steps to integrate the Coloq authentication in React project. So the first step is to create and start the project using Vite. And after that, we need to install the Coloq for React using this command.
+
+So just copy this one and come back to the VS code. So here we have this terminal and the project is running. So just add control-c to stop the project and paste this command npm install at Coloq slash Coloq react.
+
+So it is installing this package. So now I'll see the next step. So the next step is to add .env file and in this .env file, we have to add this key.
+
+So let's create a environment variable file. I'll just come back here. And in this client folder, create a new file and write the file name .env. Now in this one, just paste this environment variable.
+
+Just copy from here and paste it here. So we have added this Coloq publishable key like this. Now just come back and see the next step.
+
+So the next step is to import the publishable key in the main.jsx or jsx file. And after that, we have to use the Coloq provider tag in this same file. So let's just copy this one and come back to the VS code.
+
+And now I'll open this src then main.jsx file. Now, in this one, you can see we have this create root. So before that, let me paste this code that will import the publishable key and this if statement.
+
+After that, just come back here and you can see we have to import the Coloq provider tag. So just copy this import statement, paste it here like this import Coloq provider from Coloq slash Coloq react. And after that, we have to wrap our application using this Coloq provider like this.
+
+So let's just copy this one. I'll just copy it and come here. So here you can see we have the browser router and then we have this provider, right? So before this provider, let's paste this one, that is Coloq provider, then publishable key.
+
+And after that, we have this app. So remove this app and move this provider inside the Coloq provider. So now you can see the structure.
+
+First, we have the browser router. Inside this browser router, we have the Coloq provider. And after that, we have this provider.
+
+And in this one, we have this app, save the changes. Now we can use the Coloq components in any page or any file, right? So if I come back here in this documentation, you can see we can use the signed out component sign in button. So we can simply use these components to use the Coloq feature and create the authentication pages and pop up.
+
+So now I'll just come back here in the VS code and first we'll start the project. So let's open the terminal and write npm run dev. So again, the project is running on the same URL and we can hide this terminal.
+
+Now if I come back to the web browser and you can see this dashboard is still visible, right? So I'll just come back here in the VS code and let me close this file. And after that, let's open the app.jsx This is the first file that will get executed, right? So in this one, you can see we have this home route that is forward slash, that's it. So when we open the home page, it will open this route and here you can see we have mounted the layout page, correct? So in this layout page, we have added the data that will be displayed when we hit this home route.
+
+So now let's open this layout page. We will open this sidebar, come to pages and here we have the layout. Let's open layout.jsx file.
+
+Now in this layout, you can see we have this div that is displayed on the web page. So first we have the left sidebar and after that we have this div. In this div, we have the navigation bar and then we have this outlet.
+
+In this outlet, we can display different pages. So this sidebar and navbar will be always displayed and this outlet will display the child pages, correct? But we have to hide this entire div when the user is not logged in. For that, here we have to add one if statement and we will check the user is authenticated or not.
+
+For that, here we will import the color in this page. So let's add import calibrases. Let's add use user.
+
+Then we will import the sign in and from. And now let's provide the at color slash color react. So we have imported the use user and sign in component, right? And after that, let's get.
+
+(This file is longer than 30 minutes. Go Unlimited at TurboScribe.ai to transcribe files up to 10 hours long.)
